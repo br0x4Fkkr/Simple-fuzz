@@ -13,7 +13,6 @@ if (len(sys.argv) < 4):
 
 bof = ""
 jmpesp = ""
-shellcode = ""
 buffer=["A"]
 counter = 100
 while len(buffer) <= 30:
