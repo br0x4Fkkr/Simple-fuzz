@@ -83,6 +83,5 @@ jmpesp = jmpesp[:12] + '\\x' + jmpesp[12:]
 print "###############################"
 print "#     SCRIPT IS FINISHED!     #"
 print "###############################"
-print "Run the msfvenom command and replace the variables in fuzzsploit.py with the following: "
 print "[*] offset = %s" % offset
 print "[*] jmpesp = %s" % jmpesp
